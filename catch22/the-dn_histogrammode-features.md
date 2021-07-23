@@ -1,9 +1,11 @@
 # The DN\_HistogramMode features
 
-_catch22_ contains two features involving `DN_HistogramMode` function in  _hctsa:_
+_catch22_ contains two features involving the `DN_HistogramMode` function in  _hctsa:_
 
 * `DN_HistogramMode_5`
 * `DN_HistogramMode_10`
+
+**Note:** The C implementation of these features \(in _catch22_\) does not map perfectly onto the _hctsa_ implementation, due to slight differences in how the histogram bins are constructed. But the trends are similar.
 
 ### How it works
 
