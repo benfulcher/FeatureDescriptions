@@ -25,19 +25,19 @@ To give an intuition, below we plot some examples of how `rmd` at a fixed thresh
 
 * Time series, that have extreme events distributed similarly across time, will yield values close to zero for this statistic. For example these:
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 * Time series like these, for which large deviations from the mean tend to occur nearer to the end of the time series, will have values closer to 1:
 
-![](../.gitbook/assets/image%20%282%29.png)
-
 ![](../.gitbook/assets/image%20%283%29.png)
+
+![](../.gitbook/assets/image%20%285%29.png)
 
 * And time series like these, for which large deviations from the mean tend to occur nearer the start of the time series, will have values nearer to -1:
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 ![](../.gitbook/assets/image.png)
 

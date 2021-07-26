@@ -1,4 +1,4 @@
-# The DN\_HistogramMode features
+# The DN\_HistogramMode Features
 
 _catch22_ contains two features involving the `DN_HistogramMode` function in  _hctsa:_
 
@@ -29,7 +29,7 @@ Being distributional properties, these features are completely insensitive to th
 
 * Time series with positively skewed distributions, like this example of beta-distributed noise \(`NS_beta_L10000_a1_b3_2.dat`\), obtain negative values as shown below:
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 * \(and similarly negatively skewed distributions obtain positive values\)
 
