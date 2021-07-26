@@ -1,9 +1,9 @@
 # The DN\_OutlierInclude Features
 
-_catch22_ contains two features involving the `DN_OutlierInclude` function in  _hctsa:_
+_catch22_ contains two features based on the `DN_OutlierInclude` function in  _hctsa:_
 
-* `DN_OutlierInclude_p_001_mdrmd`
-* `DN_OutlierInclude_n_001_mdrmd`
+* `DN_OutlierInclude_p_001_mdrmd` \(the `mdrmd` output from running `DN_OutlierInclude(x_z,'pos',0.01)` in _hctsa_\)
+* `DN_OutlierInclude_n_001_mdrmd` \(the `mdrmd` output from running`DN_OutlierInclude(x_z,'neg',0.01)` in _hctsa_\).
 
 ### What it does
 
@@ -23,7 +23,7 @@ These statistics measure whether over-threshold events \(either positive or nega
 
 To give an intuition, below we plot some examples of how `rmd` at a fixed threshold \(80% the maximum positive deviation\) for the case of `DN_OutlierInclude_p_001_mdrmd`. \(But note that the full statistic takes the median of `rmd`across a range of thresholds, as described above\).
 
-* Time series, that have extreme events distributed similarly across time, will yield values close to zero for this statistic. For example these:
+* Time series, that have extreme events \(red dots, relative to the threhold, shown as a dashed red line\) distributed similarly across time, will yield values close to zero for this statistic \(vertical blue line\). For example these:
 
 ![](../.gitbook/assets/image%20%287%29.png)
 

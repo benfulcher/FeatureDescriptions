@@ -11,5 +11,5 @@
 
 ---
 
-* [The Simple Forecasting-Based Features](the-simple-forecasting-based-features.md)
+* [Simple Forecasting-Based Features](the-simple-forecasting-based-features.md)
 
