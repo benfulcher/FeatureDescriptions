@@ -6,7 +6,7 @@
 
 The `first1e_acf_tau` feature in _catch22_ computes the first 1/_e_ crossing of the autocorrelation function of the time series. In _hctsa_, this can be computed as `CO_FirstCrossing(x_z,'ac',1/exp(1),'discrete')`.
 
-This feature measures the first time lag at which the autocorrelation function drops below 1/e
+This feature measures the first time lag at which the autocorrelation function drops below 1/_e_ \(= 0.3679\).
 
 ### What it measures
 
