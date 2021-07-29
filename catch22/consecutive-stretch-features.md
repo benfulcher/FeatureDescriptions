@@ -1,6 +1,11 @@
 # Consecutive Stretch Features
 
-_catch22_ contains two features that capture the maximum length of time across which  similar consecutive local patterns are observed. These features, `SB_BinaryStats_mean_longstretch1` \(the `longstretch1` output from running `SB_BinaryStats(x_z,'mean')` in _hctsa_\) and `SB_BinaryStats_diff_longstretch0` \(the `longstretch0` output from running `SB_BinaryStats(x_z,'diff')` in _hctsa_\), capture this by converting the time series to a symbolic binary string.
+_catch22_ contains two features that capture the maximum length of time over which similar consecutive local patterns are observed:
+
+* `SB_BinaryStats_mean_longstretch1`  measures the longest successive period of above-average values.
+  * \(the `longstretch1` output from running `SB_BinaryStats(x_z,'mean')` in _hctsa_\);
+* `SB_BinaryStats_diff_longstretch0` measures the longest successive period of successive decreases.
+  * \(the `longstretch0` output from running `SB_BinaryStats(x_z,'diff')` in _hctsa_\).
 
 ### `SB_BinaryStats_mean_longstretch1`
 
@@ -13,7 +18,7 @@ _catch22_ contains two features that capture the maximum length of time across w
 
 ### What it measures
 
-* Low values are given to time series that tend not to linger too much on either side of the mean, like this moving average process, which has a maximum duration of 8 samples \(red\) above the mean:
+* Low values are given to time series that tend not to linger too much on either side of the mean, like this moving average process, which has a maximum duration of 8 samples \(red\) above the mean \(zero: dashed line\):
 
 ![](../.gitbook/assets/image%20%2813%29.png)
 
