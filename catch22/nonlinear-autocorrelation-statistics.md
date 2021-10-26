@@ -36,31 +36,31 @@ This feature is a nonlinear version of the autocorrelation function: using a non
 
 This feature gives high values to time series like this Chaotic Web map:
 
-![](<../.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (26) (1).png>)
 
-, which has clear dependence structure of the time-series value at the current point, _x\_t_, and the value two time points ahead, _x\_{t+2}, _yielding a high value for this feature of 1.25:
+, which has clear dependence structure of the time-series value at the current point, $$x_t$$, and the value two time points ahead, $$x_{t+2}$$_, _yielding a high value for this feature of 1.25:
 
 &#x20;![](<../.gitbook/assets/image (31).png>)
 
 This Tent map also has a clear (nonlinear) dependence of present time-series value with that two-steps into the future (and a moderate value of this feature, 0.473):
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (32) (1).png>)
 
 as seen in its embedding:
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33) (1).png>)
 
 And a moderate value (0.25) for this heart rhythm:
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29) (1).png>)
 
-![](<../.gitbook/assets/image (34).png>)
+![](<../.gitbook/assets/image (34) (1).png>)
 
 But a low value (0.02) for this earthquake time series:
 
-![](<../.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (27) (1).png>)
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (30) (1).png>)
 
 
 
