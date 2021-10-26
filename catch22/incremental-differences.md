@@ -10,9 +10,9 @@ This is a common statistic to measure about heart rate time series, cf. "_The pN
 
 For example, the Rossler attractor time series below has many near-constant stretches (Just 14.5% of all step increments are larger than $$0.04\sigma$$), yielding a low value for this statistic:
 
-![](<.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 These log returns of opening prices of a stock, on the other hand, fluctuate alot more: 95% of successive increments exceed the $$0.04\sigma$$ threshold, yielding a high value for this statistic:
 
-![](<.gitbook/assets/image (27).png>)
+![](<../.gitbook/assets/image (27).png>)
 

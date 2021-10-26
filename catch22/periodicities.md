@@ -8,11 +8,11 @@ It is based on a method by Wang et al. (2007) (described in their paper: _"Struc
 
 Broadly, it gives high values to slowly-varying time series like this slow (on the timescale of $$\Delta t$$) oscillator (feature value of 62):
 
-![](<.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (39).png>)
 
 And lower values to this fast (on the timescale of $$\Delta t$$) map (the Gingerbread map) (feature value = 4):
 
-![](<.gitbook/assets/image (26).png>)
+![](<../.gitbook/assets/image (26).png>)
 
 ### `SP_Summaries_welch_rect_area_5_1`
 
@@ -24,11 +24,11 @@ The area under the power spectrum is estimated in linear space, where the power 
 
 Here's an example of a slow-varying stocahstic process with a very high value for this feature, 0.987, reflecting 98.7% of power is this low-frequency band (relevant portion of the power spectrum shaded red below):
 
-![](<.gitbook/assets/image (34).png>)
+![](<../.gitbook/assets/image (40).png>)
 
 This Lozi map has a low value of 0.03 (3% of power is in the red low-frequency band):
 
-![](<.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (35).png>)
 
 ### `SP_Summaries_welch_rect_centroid`
 
@@ -36,9 +36,9 @@ Like the previous feature, this one is also extracted from the power spectrum (e
 
 It gives high values to time series that have their power in high frequencies, like this audio of an animal sound (centroid point shown with a red circle), 2.82:
 
-![](<.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (37).png>)
 
 And it gives low values to slower-varying time series like this snippet of an electrocardiogram recording from a patient with congestive heart failure. 0.15:
 
-![](<.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (28).png>)
 

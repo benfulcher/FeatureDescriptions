@@ -1,4 +1,4 @@
-# Nonlinear Autocorrelation Statistics
+# Nonlinear Autocorrelation
 
 ### `CO_trev_1_num`
 
@@ -40,7 +40,7 @@ This feature gives high values to time series like this Chaotic Web map:
 
 , which has clear dependence structure of the time-series value at the current point, $$x_t$$, and the value two time points ahead, $$x_{t+2}$$_, _yielding a high value for this feature of 1.25:
 
-&#x20;![](<../.gitbook/assets/image (31).png>)
+&#x20;![](<../.gitbook/assets/image (31) (1).png>)
 
 This Tent map also has a clear (nonlinear) dependence of present time-series value with that two-steps into the future (and a moderate value of this feature, 0.473):
 
